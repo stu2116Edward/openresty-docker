@@ -1,5 +1,5 @@
-# FROM alpine:3.20 AS builder
-FROM alpine:latest AS builder
+FROM alpine:3.20 AS builder
+# FROM alpine:latest AS builder
 
 WORKDIR /build
 
